@@ -1,4 +1,4 @@
-package com.sports;
+package com.sports.ioc;
 
 public class valyball implements Sport {
 

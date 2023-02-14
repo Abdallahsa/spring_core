@@ -6,7 +6,11 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-    <bean id="mysport" class="com.sports.football"></bean>
+    <bean id="user" class="com.spring.di.user"> <constructor-arg ref="person"></constructor-arg></bean>
+      <bean id="person" class="com.spring.di.person"></bean>
+   <!--   <bean id="mysport" class="com.sports.ioc.football"></bean>
+    -->
+
 </beans>
 
 

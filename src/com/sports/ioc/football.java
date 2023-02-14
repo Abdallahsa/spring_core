@@ -1,4 +1,4 @@
-package com.sports;
+package com.sports.ioc;
 
 public class football  implements Sport{
 public void start() {

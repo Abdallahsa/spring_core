@@ -1,4 +1,4 @@
-package com.sports;
+package com.sports.ioc;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,4 +15,5 @@ public class main {
         cont.close();
 
 }
+	
 }
