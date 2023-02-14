@@ -12,8 +12,7 @@ public class Main {
 			
 	        userInterface s2=cont.getBean("user",userInterface.class);
 	        s2.start();
-	        personInterface s1=cont.getBean("person",personInterface.class);
-	        s1.begin();
+	        s2.getperson();
 	        cont.close();
 
 	}
