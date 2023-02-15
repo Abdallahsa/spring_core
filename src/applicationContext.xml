@@ -12,6 +12,8 @@
     -->
  <bean id="user" class="com.spring.di.user">
  <property name="person" ref="person"></property>
+ <property name="email" value="abdallahsalh2@gmail.com"></property>
+  <property name="team" value="abd"></property>
  </bean>
       <bean id="person" class="com.spring.di.person"></bean>
 

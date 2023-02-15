@@ -13,6 +13,7 @@ public class Main {
 	        userInterface s2=cont.getBean("user",userInterface.class);
 	        s2.start();
 	        s2.getperson();
+	        System.out.print(s2.getEmail()+" "+s2.getTeam());
 	        cont.close();
 
 	}
