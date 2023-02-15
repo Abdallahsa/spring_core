@@ -34,4 +34,10 @@ public void setTeam(String team) {
 		 this.person=person;
 		
 	}
+	public void starts() {
+		System.out.println("start");
+	}
+	public void end() {
+		System.out.println("end");
+	}
 }

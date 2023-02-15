@@ -11,10 +11,11 @@
    <bean id="mysport" class="com.sports.ioc.football"></bean>
     -->
     <context:property-placeholder location="classpath:data.Properties"/>
- <bean id="user" class="com.spring.di.user" scope="prototype">
+ <bean id="user" class="com.spring.di.user"  init-method="starts" destroy-method="end">
  <property name="person" ref="person"></property>
  <property name="email" value="${user.email}"></property>
   <property name="team" value="${user.team}"></property>
+
  </bean>
       <bean id="person" class="com.spring.di.person"></bean>
 
