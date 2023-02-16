@@ -4,16 +4,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Master implements masterInterface  {
-//	@Autowired
-//	@Qualifier("football")
+	@Autowired
+	@Qualifier("football")
 	private SportInterface sport;
 
 	
 	public Master(SportInterface sport) {
-	this.sport = sport;
-}
+
+		this.sport = sport;
+	}
 
 	@Override
 	public void name() {
