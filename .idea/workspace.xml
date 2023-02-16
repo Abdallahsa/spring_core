@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d54f65e-3ea3-4a35-b864-2c8b5fa397e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
     <configuration name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.ann.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.ann.*" />
@@ -85,6 +81,8 @@
       <workItem from="1676489769241" duration="121000" />
       <workItem from="1676489957233" duration="21000" />
       <workItem from="1676489988073" duration="170000" />
+      <workItem from="1676535762560" duration="166000" />
+      <workItem from="1676536110598" duration="180000" />
     </task>
     <servers />
   </component>
