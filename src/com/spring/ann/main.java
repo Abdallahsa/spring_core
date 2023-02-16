@@ -11,7 +11,7 @@ public class main {
 		
         masterInterface s2=cont.getBean("master",masterInterface.class);
         
-        s2.callMySport();
+        s2.name();
         cont.close();
 
 	}
