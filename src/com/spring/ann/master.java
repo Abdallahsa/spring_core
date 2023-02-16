@@ -1,27 +1,15 @@
 package com.spring.ann;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("master")
 public class master implements masterInterface {
 	@Autowired
-
+    @Qualifier("cleint")
  private Company comp;
 
-
-
-
-	public Company getComp() {
-		return comp;
-	}
-
-
-
-@Autowired
-	public void setComp(Company comp) {
-		this.comp = comp;
-	}
 
 
 
