@@ -5,10 +5,13 @@ import org.springframework.stereotype.Component;
 
 @Component("master")
 public class master implements masterInterface {
+	@Autowired
+
  private SportInterface sport;
- @Autowired
-	public master(SportInterface sport) {
-	this.sport = sport;
+
+
+	public SportInterface getSport() {
+	return sport;
 }
 
 	@Override
