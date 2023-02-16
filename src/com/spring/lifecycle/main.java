@@ -11,8 +11,7 @@ public class main {
 		ClassPathXmlApplicationContext cont=new ClassPathXmlApplicationContext("applicationContext.xml");
 			
 	        Person s2=cont.getBean("admin",Person.class);
-	        Person s1=cont.getBean("admin",Person.class);
-	      System.out.print(s1==s2);
+	        s2.name();
 	        cont.close();
 
 	}
