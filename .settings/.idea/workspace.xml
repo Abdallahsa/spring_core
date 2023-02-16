@@ -20,7 +20,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Abdallah Saleh/eclipse-workspace/spring_app/.settings"
+    "last_opened_file_path": "C:/Users/Abdallah Saleh/eclipse-workspace/spring_app",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -32,10 +33,16 @@
       <option name="presentableId" value="Default" />
       <updated>1676388775545</updated>
       <workItem from="1676388778324" duration="10000" />
+      <workItem from="1676488900402" duration="64000" />
+      <workItem from="1676489750136" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
